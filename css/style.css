@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+.wrapper {
+	min-height: 100%;
+	/* overflow: hidden; */
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	background-color: #f5f5f5;
+	overflow-x: hidden;
+}
+
+[class*="__container"] {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+
+.main-screen {
+	background: url("../img/main.jpg") center / cover no-repeat;
+}
+
+.main-screen__container {
+	padding: 280px 0 312px 0;
+}
+
+.main-screen__title {
+	font-weight: 900;
+	line-height: 1;
+	font-size: 56px;
+	color: #fff;
+	max-width: 583px;
+	margin-bottom: 48px;
+}
+
+.button {
+	display: inline-block;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 0.15px;
+	padding: 13px 33px;
+	background-color: #f2726f;
+	border-radius: 8px;
+}
+.button:hover {
+	box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24), 0px 16px 24px rgba(38, 38, 38, 0.2);
+}
+.main-screen__button {
+	position: fixed;
+	z-index: 1;
+	opacity: 0.5;
+}
+.main-screen__button:hover {
+	opacity: 1;
+}
+/* <================================================================================>*/
+.who-we-are {
+	position: relative;
+	z-index: 2;
+}
+.who-we-are__content {
+	background: #5d62b5 url("../img/blob.png") -15px 260px no-repeat;
+	border-radius: 40px;
+	color: #fff;
+	padding: 100px 0 354px 87px;
+	position: relative;
+	top: -80px;
+	z-index: 2;
+}
+
+.who-we-are__content::before {
+	content: "";
+	position: absolute;
+	top: -110px;
+	right: -75px;
+	display: inline-block;
+	width: 201px;
+	height: 317px;
+	background: url("../img/circles.svg") 0 0 no-repeat;
+}
+
+.header-block {
+	color: #fff;
+	max-width: 583px;
+}
+.header-block__sub-title {
+	padding-left: 34px;
+	margin-bottom: 30px;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	background: url("../img/icons/mark.svg") 0 -2px no-repeat;
+}
+.header-block__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.2;
+	margin-bottom: 35px;
+}
+.who-we-are__text {
+	letter-spacing: 0.15px;
+	max-width: 846px;
+}
+.who-we-are__image {
+	position: absolute;
+	bottom: -120px;
+	border-radius: 40px;
+	width: 846px;
+	height: 420px;
+	z-index: 2;
+	box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24), 0px 16px 24px rgba(38, 38, 38, 0.2);
+}
+/* <================================================================================>*/
+.our-promise {
+	z-index: 2;
+	position: relative;
+	padding: 150px 0 122px 0;
+}
+.header-block__sub-title_blue {
+	color: #5d62b5;
+	background: url("../img/icons/mark_blue.svg") 0 -2px no-repeat;
+}
+.header-block__title_black {
+	color: black;
+	margin-bottom: 70px;
+}
+.cards__row > :not(:last-child) {
+	margin-right: 20px;
+}
+.cards__item {
+	display: inline-block;
+	max-width: 324px;
+	padding-left: 86px;
+}
+.cards__title {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 1.37;
+	color: #f2726f;
+	margin-bottom: 20px;
+}
+.cards__item_love {
+	background: url("../img/icons/dog_love.svg") 0 -4px / 63px no-repeat;
+}
+.cards__item_vet {
+	background: url("../img/icons/dog_vet.svg") 0 -4px / 63px no-repeat;
+}
+.cards__item_stream {
+	background: url("../img/icons/dog_stream.svg") 0 -4px / 63px no-repeat;
+}
+
+/* <================================================================================>*/
+.psina {
+	background: url("../img/psina_itself.png") 230px 50px / auto no-repeat,
+		url("../img/tennis_ball.png") 1720px 150px / auto no-repeat, url("../img/psina_bg.svg") 0 / cover no-repeat;
+	position: sticky;
+	top: 0;
+	z-index: 50;
+}
+
+.psina__container {
+	padding: 112px 0 169px 0;
+}
+.psina__content {
+	position: relative;
+	left: 600px;
+}
+.psina__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.17;
+	max-width: 411px;
+	color: #fff;
+	margin-bottom: 42px;
+}
+/* <================================================================================>*/
+.our-services {
+	padding: 110px 0 120px 0;
+	background: url("../img/our-services_blob.png") right -550px/ 623px no-repeat;
+}
+.our-services__content {
+	text-align: center;
+}
+.our-services__header-block {
+	margin-bottom: 77px;
+}
+.our-services__cards {
+	margin-bottom: 65px;
+}
+.cards__row_margin {
+	margin-bottom: 20px;
+}
+.cards__item_center:hover {
+	box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24), 0px 16px 24px rgba(38, 38, 38, 0.2);
+}
+.cards__item_sofa {
+	background: url("../img/icons/our-services/sofa.svg") center 50px / auto no-repeat;
+}
+.cards__item_dog-daycare {
+	background: url("../img/icons/our-services/dog_daycare.svg") center 50px / auto no-repeat;
+}
+.cards__item_shower {
+	background: url("../img/icons/our-services/shower.svg") center 50px / auto no-repeat;
+}
+.cards__item_meal {
+	background: url("../img/icons/our-services/meal.svg") center 50px / auto no-repeat;
+}
+.cards__item_training {
+	background: url("../img/icons/our-services/training.svg") center 50px / auto no-repeat;
+}
+.cards__item_shop {
+	background: url("../img/icons/our-services/shop.svg") center 50px / auto no-repeat;
+}
+.cards__item_center {
+	padding: 146px 43px 49px 44px;
+	background-color: #fff;
+	border-radius: 20px;
+}
+.our-services__button {
+	padding: 13px 27px;
+}
+
+/* <================================================================================>*/
+.footer {
+	background: url("../img/appointment__bg.jpg") center / cover no-repeat;
+	position: relative;
+	z-index: 2;
+}
+.footer__container {
+	padding: 295px 0 403px 0;
+	position: relative;
+}
+.customers {
+	max-width: 324px;
+	font-weight: 900;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	right: 0;
+}
+.customers__title {
+	font-size: 30px;
+	line-height: 1.2;
+	margin-bottom: 45px;
+}
+.customers__number {
+	font-size: 96px;
+	line-height: 0.59;
+	margin-bottom: 45px;
+}
+.customers__text {
+	font-size: 19px;
+	line-height: 1.37;
+}
